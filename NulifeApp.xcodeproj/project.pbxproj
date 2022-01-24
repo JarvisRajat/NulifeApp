@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04402EC0279C34E600973339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EBF279C34E600973339 /* AppDelegate.swift */; };
+		04402EC2279C34E600973339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EC1279C34E600973339 /* SceneDelegate.swift */; };
+		04402EC4279C34E600973339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EC3279C34E600973339 /* ViewController.swift */; };
+		04402EC7279C34E600973339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04402EC5279C34E600973339 /* Main.storyboard */; };
+		04402EC9279C34E800973339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04402EC8279C34E800973339 /* Assets.xcassets */; };
+		04402ECC279C34E800973339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04402ECA279C34E800973339 /* LaunchScreen.storyboard */; };
+		04402ED7279C34E800973339 /* NulifeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402ED6279C34E800973339 /* NulifeAppTests.swift */; };
+		04402EE1279C34E800973339 /* NulifeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EE0279C34E800973339 /* NulifeAppUITests.swift */; };
+		04402EE3279C34E800973339 /* NulifeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EE2279C34E800973339 /* NulifeAppUITestsLaunchTests.swift */; };
+		04402EF2279C3F9E00973339 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EF0279C3F9E00973339 /* HeaderCell.swift */; };
+		04402EF3279C3F9E00973339 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04402EF1279C3F9E00973339 /* HeaderCell.xib */; };
+		04402EF6279C401300973339 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EF4279C401300973339 /* TitleCell.swift */; };
+		04402EF7279C401300973339 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04402EF5279C401300973339 /* TitleCell.xib */; };
+		04402EFA279C404100973339 /* SessionScheduledCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EF8279C404100973339 /* SessionScheduledCell.swift */; };
+		04402EFB279C404100973339 /* SessionScheduledCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04402EF9279C404100973339 /* SessionScheduledCell.xib */; };
+		04402EFE279C405B00973339 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EFC279C405B00973339 /* ToDoCell.swift */; };
+		04402EFF279C405B00973339 /* ToDoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04402EFD279C405B00973339 /* ToDoCell.xib */; };
+		04402F02279C40DE00973339 /* ServicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402F00279C40DE00973339 /* ServicesCell.swift */; };
+		04402F03279C40DE00973339 /* ServicesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04402F01279C40DE00973339 /* ServicesCell.xib */; };
+		04402F05279C40F700973339 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402F04279C40F700973339 /* Constants.swift */; };
+		04402F07279C51DD00973339 /* CustomiseSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402F06279C51DD00973339 /* CustomiseSegmentControl.swift */; };
+		04402F0A279C72AF00973339 /* SessionDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402F08279C72AF00973339 /* SessionDetailCell.swift */; };
+		04402F0B279C72AF00973339 /* SessionDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04402F09279C72AF00973339 /* SessionDetailCell.xib */; };
+		04402F0E279C72C600973339 /* ToDoDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402F0C279C72C600973339 /* ToDoDetailCell.swift */; };
+		04402F0F279C72C600973339 /* ToDoDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04402F0D279C72C600973339 /* ToDoDetailCell.xib */; };
+		04F72929279D544A00EEDFD8 /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F72928279D544A00EEDFD8 /* DatePickerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04402ED3279C34E800973339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04402EB4279C34E500973339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04402EBB279C34E600973339;
+			remoteInfo = NulifeApp;
+		};
+		04402EDD279C34E800973339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04402EB4279C34E500973339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04402EBB279C34E600973339;
+			remoteInfo = NulifeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04402EBC279C34E600973339 /* NulifeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NulifeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04402EBF279C34E600973339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04402EC1279C34E600973339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04402EC3279C34E600973339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04402EC6279C34E600973339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04402EC8279C34E800973339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04402ECB279C34E800973339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04402ECD279C34E800973339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04402ED2279C34E800973339 /* NulifeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NulifeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04402ED6279C34E800973339 /* NulifeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NulifeAppTests.swift; sourceTree = "<group>"; };
+		04402EDC279C34E800973339 /* NulifeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NulifeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04402EE0279C34E800973339 /* NulifeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NulifeAppUITests.swift; sourceTree = "<group>"; };
+		04402EE2279C34E800973339 /* NulifeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NulifeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04402EF0279C3F9E00973339 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		04402EF1279C3F9E00973339 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		04402EF4279C401300973339 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		04402EF5279C401300973339 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		04402EF8279C404100973339 /* SessionScheduledCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionScheduledCell.swift; sourceTree = "<group>"; };
+		04402EF9279C404100973339 /* SessionScheduledCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionScheduledCell.xib; sourceTree = "<group>"; };
+		04402EFC279C405B00973339 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		04402EFD279C405B00973339 /* ToDoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoCell.xib; sourceTree = "<group>"; };
+		04402F00279C40DE00973339 /* ServicesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesCell.swift; sourceTree = "<group>"; };
+		04402F01279C40DE00973339 /* ServicesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServicesCell.xib; sourceTree = "<group>"; };
+		04402F04279C40F700973339 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04402F06279C51DD00973339 /* CustomiseSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomiseSegmentControl.swift; sourceTree = "<group>"; };
+		04402F08279C72AF00973339 /* SessionDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailCell.swift; sourceTree = "<group>"; };
+		04402F09279C72AF00973339 /* SessionDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionDetailCell.xib; sourceTree = "<group>"; };
+		04402F0C279C72C600973339 /* ToDoDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailCell.swift; sourceTree = "<group>"; };
+		04402F0D279C72C600973339 /* ToDoDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoDetailCell.xib; sourceTree = "<group>"; };
+		04F72928279D544A00EEDFD8 /* DatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04402EB9279C34E600973339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04402ECF279C34E800973339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04402ED9279C34E800973339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04402EB3279C34E500973339 = {
+			isa = PBXGroup;
+			children = (
+				04402EBE279C34E600973339 /* NulifeApp */,
+				04402ED5279C34E800973339 /* NulifeAppTests */,
+				04402EDF279C34E800973339 /* NulifeAppUITests */,
+				04402EBD279C34E600973339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04402EBD279C34E600973339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04402EBC279C34E600973339 /* NulifeApp.app */,
+				04402ED2279C34E800973339 /* NulifeAppTests.xctest */,
+				04402EDC279C34E800973339 /* NulifeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04402EBE279C34E600973339 /* NulifeApp */ = {
+			isa = PBXGroup;
+			children = (
+				04402EEF279C3F6500973339 /* Views */,
+				04402EBF279C34E600973339 /* AppDelegate.swift */,
+				04402EC1279C34E600973339 /* SceneDelegate.swift */,
+				04402EC3279C34E600973339 /* ViewController.swift */,
+				04F72928279D544A00EEDFD8 /* DatePickerController.swift */,
+				04402EC5279C34E600973339 /* Main.storyboard */,
+				04402EC8279C34E800973339 /* Assets.xcassets */,
+				04402ECA279C34E800973339 /* LaunchScreen.storyboard */,
+				04402ECD279C34E800973339 /* Info.plist */,
+				04402F04279C40F700973339 /* Constants.swift */,
+				04402F06279C51DD00973339 /* CustomiseSegmentControl.swift */,
+			);
+			path = NulifeApp;
+			sourceTree = "<group>";
+		};
+		04402ED5279C34E800973339 /* NulifeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				04402ED6279C34E800973339 /* NulifeAppTests.swift */,
+			);
+			path = NulifeAppTests;
+			sourceTree = "<group>";
+		};
+		04402EDF279C34E800973339 /* NulifeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04402EE0279C34E800973339 /* NulifeAppUITests.swift */,
+				04402EE2279C34E800973339 /* NulifeAppUITestsLaunchTests.swift */,
+			);
+			path = NulifeAppUITests;
+			sourceTree = "<group>";
+		};
+		04402EEF279C3F6500973339 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04402EF0279C3F9E00973339 /* HeaderCell.swift */,
+				04402EF1279C3F9E00973339 /* HeaderCell.xib */,
+				04402EF4279C401300973339 /* TitleCell.swift */,
+				04402EF5279C401300973339 /* TitleCell.xib */,
+				04402EF8279C404100973339 /* SessionScheduledCell.swift */,
+				04402EF9279C404100973339 /* SessionScheduledCell.xib */,
+				04402EFC279C405B00973339 /* ToDoCell.swift */,
+				04402EFD279C405B00973339 /* ToDoCell.xib */,
+				04402F00279C40DE00973339 /* ServicesCell.swift */,
+				04402F01279C40DE00973339 /* ServicesCell.xib */,
+				04402F08279C72AF00973339 /* SessionDetailCell.swift */,
+				04402F09279C72AF00973339 /* SessionDetailCell.xib */,
+				04402F0C279C72C600973339 /* ToDoDetailCell.swift */,
+				04402F0D279C72C600973339 /* ToDoDetailCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04402EBB279C34E600973339 /* NulifeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04402EE6279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeApp" */;
+			buildPhases = (
+				04402EB8279C34E600973339 /* Sources */,
+				04402EB9279C34E600973339 /* Frameworks */,
+				04402EBA279C34E600973339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NulifeApp;
+			productName = NulifeApp;
+			productReference = 04402EBC279C34E600973339 /* NulifeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04402ED1279C34E800973339 /* NulifeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04402EE9279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeAppTests" */;
+			buildPhases = (
+				04402ECE279C34E800973339 /* Sources */,
+				04402ECF279C34E800973339 /* Frameworks */,
+				04402ED0279C34E800973339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04402ED4279C34E800973339 /* PBXTargetDependency */,
+			);
+			name = NulifeAppTests;
+			productName = NulifeAppTests;
+			productReference = 04402ED2279C34E800973339 /* NulifeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04402EDB279C34E800973339 /* NulifeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04402EEC279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeAppUITests" */;
+			buildPhases = (
+				04402ED8279C34E800973339 /* Sources */,
+				04402ED9279C34E800973339 /* Frameworks */,
+				04402EDA279C34E800973339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04402EDE279C34E800973339 /* PBXTargetDependency */,
+			);
+			name = NulifeAppUITests;
+			productName = NulifeAppUITests;
+			productReference = 04402EDC279C34E800973339 /* NulifeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04402EB4279C34E500973339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					04402EBB279C34E600973339 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					04402ED1279C34E800973339 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 04402EBB279C34E600973339;
+					};
+					04402EDB279C34E800973339 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 04402EBB279C34E600973339;
+					};
+				};
+			};
+			buildConfigurationList = 04402EB7279C34E500973339 /* Build configuration list for PBXProject "NulifeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04402EB3279C34E500973339;
+			productRefGroup = 04402EBD279C34E600973339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04402EBB279C34E600973339 /* NulifeApp */,
+				04402ED1279C34E800973339 /* NulifeAppTests */,
+				04402EDB279C34E800973339 /* NulifeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04402EBA279C34E600973339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04402EF3279C3F9E00973339 /* HeaderCell.xib in Resources */,
+				04402ECC279C34E800973339 /* LaunchScreen.storyboard in Resources */,
+				04402EFB279C404100973339 /* SessionScheduledCell.xib in Resources */,
+				04402EFF279C405B00973339 /* ToDoCell.xib in Resources */,
+				04402F0F279C72C600973339 /* ToDoDetailCell.xib in Resources */,
+				04402EC9279C34E800973339 /* Assets.xcassets in Resources */,
+				04402F03279C40DE00973339 /* ServicesCell.xib in Resources */,
+				04402F0B279C72AF00973339 /* SessionDetailCell.xib in Resources */,
+				04402EC7279C34E600973339 /* Main.storyboard in Resources */,
+				04402EF7279C401300973339 /* TitleCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04402ED0279C34E800973339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04402EDA279C34E800973339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04402EB8279C34E600973339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04402EF2279C3F9E00973339 /* HeaderCell.swift in Sources */,
+				04402F02279C40DE00973339 /* ServicesCell.swift in Sources */,
+				04402EC4279C34E600973339 /* ViewController.swift in Sources */,
+				04402EFE279C405B00973339 /* ToDoCell.swift in Sources */,
+				04402EFA279C404100973339 /* SessionScheduledCell.swift in Sources */,
+				04402EF6279C401300973339 /* TitleCell.swift in Sources */,
+				04402F07279C51DD00973339 /* CustomiseSegmentControl.swift in Sources */,
+				04402EC0279C34E600973339 /* AppDelegate.swift in Sources */,
+				04402F0E279C72C600973339 /* ToDoDetailCell.swift in Sources */,
+				04402F0A279C72AF00973339 /* SessionDetailCell.swift in Sources */,
+				04402EC2279C34E600973339 /* SceneDelegate.swift in Sources */,
+				04F72929279D544A00EEDFD8 /* DatePickerController.swift in Sources */,
+				04402F05279C40F700973339 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04402ECE279C34E800973339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04402ED7279C34E800973339 /* NulifeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04402ED8279C34E800973339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04402EE1279C34E800973339 /* NulifeAppUITests.swift in Sources */,
+				04402EE3279C34E800973339 /* NulifeAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04402ED4279C34E800973339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04402EBB279C34E600973339 /* NulifeApp */;
+			targetProxy = 04402ED3279C34E800973339 /* PBXContainerItemProxy */;
+		};
+		04402EDE279C34E800973339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04402EBB279C34E600973339 /* NulifeApp */;
+			targetProxy = 04402EDD279C34E800973339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04402EC5279C34E600973339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04402EC6279C34E600973339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04402ECA279C34E800973339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04402ECB279C34E800973339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04402EE4279C34E800973339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04402EE5279C34E800973339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04402EE7279C34E800973339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NulifeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithrajat.NulifeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04402EE8279C34E800973339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NulifeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithrajat.NulifeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04402EEA279C34E800973339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithrajat.NulifeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NulifeApp.app/NulifeApp";
+			};
+			name = Debug;
+		};
+		04402EEB279C34E800973339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithrajat.NulifeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NulifeApp.app/NulifeApp";
+			};
+			name = Release;
+		};
+		04402EED279C34E800973339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithrajat.NulifeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NulifeApp;
+			};
+			name = Debug;
+		};
+		04402EEE279C34E800973339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithrajat.NulifeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NulifeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04402EB7279C34E500973339 /* Build configuration list for PBXProject "NulifeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04402EE4279C34E800973339 /* Debug */,
+				04402EE5279C34E800973339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04402EE6279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04402EE7279C34E800973339 /* Debug */,
+				04402EE8279C34E800973339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04402EE9279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04402EEA279C34E800973339 /* Debug */,
+				04402EEB279C34E800973339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04402EEC279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04402EED279C34E800973339 /* Debug */,
+				04402EEE279C34E800973339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04402EB4279C34E500973339 /* Project object */;
+}

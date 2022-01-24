@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeaderCell" rowHeight="111" id="KGk-i7-Jjw" customClass="HeaderCell" customModule="NulifeApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="404" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nuLife" translatesAutoresizingMaskIntoConstraints="NO" id="4cw-Bb-6h4">
+                        <rect key="frame" x="136" y="8" width="132" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="P5u-1j-1Y8"/>
+                            <constraint firstAttribute="width" secondItem="4cw-Bb-6h4" secondAttribute="height" multiplier="3:1" id="ZOC-wO-ang"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5l-zJ-If6">
+                        <rect key="frame" x="356" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="4Jc-pl-XwE"/>
+                            <constraint firstAttribute="width" secondItem="o5l-zJ-If6" secondAttribute="height" multiplier="1:1" id="WXw-5Z-bjD"/>
+                        </constraints>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="line.horizontal.3" catalog="system"/>
+                        <connections>
+                            <action selector="optionbtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sQt-Eh-fZW"/>
+                        </connections>
+                    </button>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fsw-H3-bgG" customClass="CustomiseSegmentControl" customModule="NulifeApp" customModuleProvider="target">
+                        <rect key="frame" x="82" y="60" width="240" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="fsw-H3-bgG" secondAttribute="height" multiplier="6:1" id="R08-WW-Yib"/>
+                            <constraint firstAttribute="height" constant="40" id="Y9Q-Ac-r7i"/>
+                        </constraints>
+                        <segments>
+                            <segment title="Home"/>
+                            <segment title="Feed"/>
+                        </segments>
+                    </segmentedControl>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fsw-H3-bgG" firstAttribute="top" secondItem="4cw-Bb-6h4" secondAttribute="bottom" constant="8" id="9Aa-bf-fNF"/>
+                    <constraint firstItem="4cw-Bb-6h4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="O5e-ts-Q3C"/>
+                    <constraint firstItem="o5l-zJ-If6" firstAttribute="centerY" secondItem="4cw-Bb-6h4" secondAttribute="centerY" id="cMn-Rs-xlD"/>
+                    <constraint firstAttribute="trailing" secondItem="o5l-zJ-If6" secondAttribute="trailing" constant="8" id="ccQ-wC-4pl"/>
+                    <constraint firstItem="4cw-Bb-6h4" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="iMQ-63-RVX"/>
+                    <constraint firstItem="fsw-H3-bgG" firstAttribute="centerX" secondItem="4cw-Bb-6h4" secondAttribute="centerX" id="le9-GI-Cu1"/>
+                    <constraint firstAttribute="bottom" secondItem="fsw-H3-bgG" secondAttribute="bottom" constant="8" id="ohv-dI-lDV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="iconImage" destination="4cw-Bb-6h4" id="6fy-C1-4mw"/>
+                <outlet property="optionBtn" destination="o5l-zJ-If6" id="IhL-hK-ThZ"/>
+                <outlet property="segmentControl" destination="fsw-H3-bgG" id="D7h-T2-WGX"/>
+            </connections>
+            <point key="canvasLocation" x="192.75362318840581" y="102.79017857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="nuLife" width="232" height="88"/>
+    </resources>
+</document>

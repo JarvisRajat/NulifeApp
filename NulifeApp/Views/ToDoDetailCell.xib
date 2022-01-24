@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoDetailCell" rowHeight="63" id="KGk-i7-Jjw" customClass="ToDoDetailCell" customModule="NulifeApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRn-5b-wSr">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="56"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menucard.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xeM-Qt-h49">
+                                <rect key="frame" x="0.0" y="7.5" width="40" height="41"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.014842696819999999" green="0.024833571990000001" blue="0.29273632319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xeM-Qt-h49" secondAttribute="height" multiplier="1:1" id="2ya-yl-gCG"/>
+                                    <constraint firstAttribute="height" constant="40" id="3Jt-tk-7VA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Editable Cell" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDU-5o-WFr">
+                                <rect key="frame" x="48" y="19" width="284" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.014842696819999999" green="0.024833571990000001" blue="0.29273632319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HDU-5o-WFr" firstAttribute="leading" secondItem="xeM-Qt-h49" secondAttribute="trailing" constant="8" id="23w-w2-Xi1"/>
+                            <constraint firstItem="xeM-Qt-h49" firstAttribute="top" secondItem="uRn-5b-wSr" secondAttribute="top" constant="8" id="49t-vo-vzT"/>
+                            <constraint firstItem="HDU-5o-WFr" firstAttribute="centerY" secondItem="xeM-Qt-h49" secondAttribute="centerY" id="a8e-Ar-aYg"/>
+                            <constraint firstAttribute="trailing" secondItem="HDU-5o-WFr" secondAttribute="trailing" constant="8" id="arx-ih-c89"/>
+                            <constraint firstItem="xeM-Qt-h49" firstAttribute="leading" secondItem="uRn-5b-wSr" secondAttribute="leading" id="tTY-0W-jwD"/>
+                            <constraint firstAttribute="bottom" secondItem="xeM-Qt-h49" secondAttribute="bottom" constant="8" id="yYp-E5-lbN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uRn-5b-wSr" secondAttribute="trailing" id="2vn-Pa-Ott"/>
+                    <constraint firstItem="uRn-5b-wSr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Z9n-Im-cKx"/>
+                    <constraint firstAttribute="bottom" secondItem="uRn-5b-wSr" secondAttribute="bottom" constant="1" id="dO8-cg-aNC"/>
+                    <constraint firstItem="uRn-5b-wSr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nBz-SQ-tpk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" systemColor="separatorColor"/>
+            <connections>
+                <outlet property="editableCellText" destination="HDU-5o-WFr" id="IfR-ec-01Z"/>
+                <outlet property="parentView" destination="uRn-5b-wSr" id="VBf-aG-Y3B"/>
+                <outlet property="toDoIcon" destination="xeM-Qt-h49" id="Zd2-md-BSA"/>
+            </connections>
+            <point key="canvasLocation" x="146.37681159420291" y="86.383928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="menucard.fill" catalog="system" width="106" height="128"/>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
