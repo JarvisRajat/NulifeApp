@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01E1AD463C47A67C865C19B5 /* Pods_NulifeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB1B90E703828FC9CBD52E1 /* Pods_NulifeAppTests.framework */; };
 		04402EC0279C34E600973339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EBF279C34E600973339 /* AppDelegate.swift */; };
 		04402EC2279C34E600973339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EC1279C34E600973339 /* SceneDelegate.swift */; };
 		04402EC4279C34E600973339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402EC3279C34E600973339 /* ViewController.swift */; };
@@ -33,6 +34,8 @@
 		04402F0E279C72C600973339 /* ToDoDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402F0C279C72C600973339 /* ToDoDetailCell.swift */; };
 		04402F0F279C72C600973339 /* ToDoDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04402F0D279C72C600973339 /* ToDoDetailCell.xib */; };
 		04F72929279D544A00EEDFD8 /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F72928279D544A00EEDFD8 /* DatePickerController.swift */; };
+		377D01A96880F24DE8629FD0 /* Pods_NulifeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F700D996DE08EE5B478EEEC7 /* Pods_NulifeApp.framework */; };
+		B11747326F97C2EAEAB42565 /* Pods_NulifeApp_NulifeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556777B65D06B88795BEC16B /* Pods_NulifeApp_NulifeAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,15 @@
 		04402F0C279C72C600973339 /* ToDoDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailCell.swift; sourceTree = "<group>"; };
 		04402F0D279C72C600973339 /* ToDoDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoDetailCell.xib; sourceTree = "<group>"; };
 		04F72928279D544A00EEDFD8 /* DatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
+		438D1576144511A26424E15E /* Pods-NulifeApp-NulifeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NulifeApp-NulifeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NulifeApp-NulifeAppUITests/Pods-NulifeApp-NulifeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43BD2A669E291D050B5172E7 /* Pods-NulifeApp-NulifeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NulifeApp-NulifeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NulifeApp-NulifeAppUITests/Pods-NulifeApp-NulifeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54A54E971D4C93864F074F14 /* Pods-NulifeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NulifeApp.debug.xcconfig"; path = "Target Support Files/Pods-NulifeApp/Pods-NulifeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		556777B65D06B88795BEC16B /* Pods_NulifeApp_NulifeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NulifeApp_NulifeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A43A74E267335660DF8D4D8 /* Pods-NulifeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NulifeAppTests.release.xcconfig"; path = "Target Support Files/Pods-NulifeAppTests/Pods-NulifeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		867120059B82721F0DC43163 /* Pods-NulifeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NulifeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NulifeAppTests/Pods-NulifeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEB1B90E703828FC9CBD52E1 /* Pods_NulifeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NulifeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF2859E46B65FB6F8E89A96 /* Pods-NulifeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NulifeApp.release.xcconfig"; path = "Target Support Files/Pods-NulifeApp/Pods-NulifeApp.release.xcconfig"; sourceTree = "<group>"; };
+		F700D996DE08EE5B478EEEC7 /* Pods_NulifeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NulifeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377D01A96880F24DE8629FD0 /* Pods_NulifeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E1AD463C47A67C865C19B5 /* Pods_NulifeAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11747326F97C2EAEAB42565 /* Pods_NulifeApp_NulifeAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +132,8 @@
 				04402ED5279C34E800973339 /* NulifeAppTests */,
 				04402EDF279C34E800973339 /* NulifeAppUITests */,
 				04402EBD279C34E600973339 /* Products */,
+				603BAE8C28281A8D68550757 /* Pods */,
+				C9F686D5714691F128B679C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,6 +203,30 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		603BAE8C28281A8D68550757 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54A54E971D4C93864F074F14 /* Pods-NulifeApp.debug.xcconfig */,
+				DEF2859E46B65FB6F8E89A96 /* Pods-NulifeApp.release.xcconfig */,
+				43BD2A669E291D050B5172E7 /* Pods-NulifeApp-NulifeAppUITests.debug.xcconfig */,
+				438D1576144511A26424E15E /* Pods-NulifeApp-NulifeAppUITests.release.xcconfig */,
+				867120059B82721F0DC43163 /* Pods-NulifeAppTests.debug.xcconfig */,
+				7A43A74E267335660DF8D4D8 /* Pods-NulifeAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9F686D5714691F128B679C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F700D996DE08EE5B478EEEC7 /* Pods_NulifeApp.framework */,
+				556777B65D06B88795BEC16B /* Pods_NulifeApp_NulifeAppUITests.framework */,
+				AEB1B90E703828FC9CBD52E1 /* Pods_NulifeAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04402EE6279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeApp" */;
 			buildPhases = (
+				24E0B2DC3CF6BE5669BFBD92 /* [CP] Check Pods Manifest.lock */,
 				04402EB8279C34E600973339 /* Sources */,
 				04402EB9279C34E600973339 /* Frameworks */,
 				04402EBA279C34E600973339 /* Resources */,
@@ -210,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04402EE9279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeAppTests" */;
 			buildPhases = (
+				065968BB474BE86C8829F7C0 /* [CP] Check Pods Manifest.lock */,
 				04402ECE279C34E800973339 /* Sources */,
 				04402ECF279C34E800973339 /* Frameworks */,
 				04402ED0279C34E800973339 /* Resources */,
@@ -228,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04402EEC279C34E800973339 /* Build configuration list for PBXNativeTarget "NulifeAppUITests" */;
 			buildPhases = (
+				5E36D5EF34813B65ACB030A2 /* [CP] Check Pods Manifest.lock */,
 				04402ED8279C34E800973339 /* Sources */,
 				04402ED9279C34E800973339 /* Frameworks */,
 				04402EDA279C34E800973339 /* Resources */,
@@ -318,6 +362,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065968BB474BE86C8829F7C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NulifeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24E0B2DC3CF6BE5669BFBD92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NulifeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E36D5EF34813B65ACB030A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NulifeApp-NulifeAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04402EB8279C34E600973339 /* Sources */ = {
@@ -510,6 +623,7 @@
 		};
 		04402EE7279C34E800973339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A54E971D4C93864F074F14 /* Pods-NulifeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -537,6 +651,7 @@
 		};
 		04402EE8279C34E800973339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF2859E46B65FB6F8E89A96 /* Pods-NulifeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,6 +679,7 @@
 		};
 		04402EEA279C34E800973339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867120059B82721F0DC43163 /* Pods-NulifeAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -588,6 +704,7 @@
 		};
 		04402EEB279C34E800973339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A43A74E267335660DF8D4D8 /* Pods-NulifeAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -612,6 +729,7 @@
 		};
 		04402EED279C34E800973339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BD2A669E291D050B5172E7 /* Pods-NulifeApp-NulifeAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -634,6 +752,7 @@
 		};
 		04402EEE279C34E800973339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438D1576144511A26424E15E /* Pods-NulifeApp-NulifeAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
